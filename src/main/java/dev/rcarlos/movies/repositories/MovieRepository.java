@@ -1,5 +1,6 @@
-package dev.rcarlos.movies;
+package dev.rcarlos.movies.repositories;
 
+import dev.rcarlos.movies.models.Movie;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;

@@ -1,4 +1,4 @@
-package dev.rcarlos.movies;
+package dev.rcarlos.movies.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

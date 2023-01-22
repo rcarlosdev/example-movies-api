@@ -1,5 +1,7 @@
-package dev.rcarlos.movies;
+package dev.rcarlos.movies.controllers;
 
+import dev.rcarlos.movies.services.ReviewService;
+import dev.rcarlos.movies.models.Review;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

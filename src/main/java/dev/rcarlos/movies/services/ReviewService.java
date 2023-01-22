@@ -1,5 +1,8 @@
-package dev.rcarlos.movies;
+package dev.rcarlos.movies.services;
 
+import dev.rcarlos.movies.models.Movie;
+import dev.rcarlos.movies.models.Review;
+import dev.rcarlos.movies.repositories.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

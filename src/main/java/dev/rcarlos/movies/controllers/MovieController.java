@@ -1,6 +1,7 @@
-package dev.rcarlos.movies;
+package dev.rcarlos.movies.controllers;
 
-import org.bson.types.ObjectId;
+import dev.rcarlos.movies.services.MovieService;
+import dev.rcarlos.movies.models.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
